@@ -18,5 +18,10 @@
         <link href="//fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">        
         <!--//fonts-->
+        <style type="text/css">
+            .fixheight{
+                height: 235px;
+            }
+        </style>
     </head>
     <?php $this->load->view('templates/menu');?>

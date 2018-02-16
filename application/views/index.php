@@ -72,16 +72,9 @@
             <h3 class="heading-agileinfo">News/Events<span>Recent Upcomings in school</span></h3>
             <div class="agileits_banner_bottom">
                 <div class="vticker">
-                    <marquee direction='up' scrollamount='2' onmouseover='this.stop();' onmouseout='this.start();'>
+                    <marquee direction='up' scrollamount='2' onmouseover='this.stop();' onmouseout='this.start();' style="height: 300px">
                         <ul>                        
-                            <li>                               
-                                <h4>School Campus</h4>
-                                <p>The school is located at Kusumkhera, about 5 km from Haldwani city, away from pollution. Sprawled between the lush green environments in a tranquil ambience the school is housed in modern sophisticated buildings.</p>
-                            </li>
-                            <li>                               
-                                <h4>Admission</h4>
-                                <p>Admission to various classes starts at the beginning of the academic session in February/ March every year. Admission tests are held in Feb and March followed by an interview.</p>
-                            </li>                            
+                            <?php $this->load->view('templates/news');?>                     
                         </ul>
                     </marquee>
                 </div>
@@ -158,7 +151,7 @@
             <img src="<?php echo base_url('assets/images/a2.jpg'); ?>" class="img-responsive" alt=""/>
             <div class="popular-text">
                 <h5><a href="#" data-toggle="modal" data-target="#myModal3">Break and vacations</a></h5>
-                <div class="detail-bottom">                   
+                <div class="detail-bottom fixheight">                   
                     <p>In addition to normal gazetted holidays, the school observes the following vacations breaks :-<br>
                         (a) Summer vacation - May-June 50 days<br>
                         (c) Winter Break - Dec –Jan 15 days
@@ -173,9 +166,9 @@
             <img src="<?php echo base_url('assets/images/a3.jpg'); ?>" class="img-responsive" alt=""/>
             <div class="popular-text">
                 <h5><a href="#" data-toggle="modal" data-target="#myModal4">Happy Birthday</a></h5>
-                <div class="detail-bottom">                    
+                <div class="detail-bottom fixheight">                    
                     <p>Wishing you a <br><b><h2>Happy Birthday</h2></b></p>
-                    <img src="<?php echo base_url('assets/images/a3.jpg');?>" style="max-width:100px;">
+                    <?php $this->load->view('templates/bday'); ?>
                     <p>May GOD bless you all the days you live.</p>
                 </div>
             </div>
@@ -184,7 +177,7 @@
             <img src="<?php echo base_url('assets/images/a4.jpg'); ?>" class="img-responsive" alt=""/>
             <div class="popular-text">
                 <h5><a href="#" data-toggle="modal" data-target="#myModal5">Visiting/Calling Hours</a></h5>
-                <div class="detail-bottom">
+                <div class="detail-bottom fixheight">
                     <p>Regular Parent-Teacher meeting is organized after every Unit Test. Official Hours are as follows<br>
                         (i) Summer : 09:00 AM  to 01:00 PM.<br>
                         (ii) Winter : 09:30 AM to 01:30 PM</p>

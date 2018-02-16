@@ -20,8 +20,8 @@
 				up: '',
 				down: '',
 				toggle: '',
-				playText: 'Play',
-				stopText: 'Stop'
+				playText: '<i class="fa fa-play" aria-hidden="true"></i>',
+				stopText: '<i class="fa fa-pause" aria-hidden="true"></i>'
 			}
         };
 

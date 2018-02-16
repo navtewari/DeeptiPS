@@ -49,6 +49,19 @@
                 $('.events').append("<li>after event fired.</li>");
             }
         });
+        $("#slider_bday").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: true,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                $('.events').append("<li>after event fired.</li>");
+            }
+        });
     });
 </script>
 <!-- //responsiveslides -->
@@ -113,6 +126,6 @@
 </script>
 <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
-<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap-3.1.1.min.js'); ?>"></script>                  
+<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap-3.1.1.min.js'); ?>"></script>    
 </body>
 </html>

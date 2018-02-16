@@ -503,3 +503,15 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+/*
+Customized Definitions --------------------->>>>>
+*/
+define('_SCHOOL_', "Deepti Public School, Haldwani");
+define('_SCHOOL_ABREV_', "DPS");
+define('ADMIN___', 'http://localhost/dpanel');
+//define('ADMIN___', $config['base_url'].'/dpanel');
+define('AGIPANEL___', $config['base_url'].'/dpanel');
+/*
+-------------------------------------------->>>>>
+*/
