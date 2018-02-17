@@ -75,7 +75,7 @@
         <h3 class="heading-agileinfo white-w3ls">Play, explore and learn.<span class="yellow-w3ls">Experience a good Education at Deepti Public School</span></h3>
         <p>The true essence of a school lies, not in its infrastructure of four walls but its overall purpose of imparting quality education.</p>
         <div class="more-button">
-            <a href="contact.html">Contact Us</a>
+            <a href="<?php echo site_url('web/contact')?>">Contact Us</a>
         </div>
     </div>
 </div>

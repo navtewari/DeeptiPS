@@ -32,7 +32,6 @@
                             <li class="<?php if ($menu == 5) { echo "active";}?>"><a href="<?php echo site_url('web/gallery'); ?>">Gallery</a></li>
                             <li class="<?php if ($menu == 6) { echo "active";}?>"><a href="<?php echo site_url('web/contact'); ?>">Contact</a></li>                            
                         </ul>
-
                     </div>
                     <div class="clearfix"> </div>	
                 </nav>

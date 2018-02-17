@@ -12,11 +12,11 @@
         <div class="clearfix"></div>
         <div class="copy">
             <ul class="banner-menu-w3layouts">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>                       
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Facilities</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="<?php echo site_url('web')?>">Home</a></li>
+                <li><a href="<?php echo site_url('web/about')?>">About</a></li>                       
+                <li><a href="<?php echo site_url('web/gallery')?>">Gallery</a></li>
+                <li><a href="<?php echo site_url('web/activities')?>">Facilities</a></li>
+                <li><a href="<?php echo site_url('web/contact')?>">Contact</a></li>
             </ul>
             <ul class="agileits_social_list">
                 <li><a href="http://www.facebook.com/deeptipublicschool" class="w3_agile_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>                        
@@ -27,7 +27,17 @@
 </div>
 <!--//footer -->
 <!-- js -->
-<script type="text/javascript" src="<?php echo base_url('assets/js/jquery-2.1.4.min.js'); ?>"></script>        
+<script type="text/javascript" src="<?php echo base_url('assets/js/jquery-2.1.4.min.js'); ?>"></script>  
+<?php if ($menu == 5) { ?>
+    <!-- light-case -->
+    <script src="<?php echo base_url('assets/js/lightcase.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.events.touch.js'); ?>"></script>
+    <script>
+        $('.showcase').lightcase();
+    </script>
+    <!-- //light-case -->
+<?php } ?>
+
 <!--//js -->
 <script src="<?php echo base_url('assets/js/SmoothScroll.min.js'); ?>"></script>
 <!-- responsiveslides -->

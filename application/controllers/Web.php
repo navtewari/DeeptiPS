@@ -39,7 +39,15 @@ class Web extends CI_Controller {
 
     public function gallery() {
         $data['menu'] = 5;
-        $data['gallery'] = $this->mm->get_gallery();
+        $data['gallery_category'] = $this->mm->get_gallery_category();        
+        $this->load->view('templates/header', $data);
+        $this->load->view('gallery-category',$data);
+        $this->load->view('templates/footer');
+    }
+    
+    public function gallery_detail($id) {
+        $data['menu'] = 5;
+        $data['gallery'] = $this->mm->get_gallery($id);        
         $this->load->view('templates/header', $data);
         $this->load->view('gallery',$data);
         $this->load->view('templates/footer');
@@ -51,5 +59,19 @@ class Web extends CI_Controller {
         $this->load->view('contact',$data);
         $this->load->view('templates/footer');
     }        
+    
+    public function management() {
+        $data['menu'] = 7;
+        $this->load->view('templates/header', $data);
+        $this->load->view('management',$data);
+        $this->load->view('templates/footer');
+    }
+    
+    public function rules() {
+        $data['menu'] = 8;
+        $this->load->view('templates/header', $data);
+        $this->load->view('rules',$data);
+        $this->load->view('templates/footer');
+    }
 
 }

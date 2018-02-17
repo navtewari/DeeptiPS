@@ -64,7 +64,7 @@
             <div class="agileits_banner_bottom">
                 <p>The true essence of a school lies, not in its infrastructure of four walls but its overall purpose of imparting quality education which includes the art of shaping individual’s personality through physical, emotional, intellectual and spiritual development. The school, therefore, devotes itself assiduously to grooming of students in such a way that they excel in all walks of life, make a mark in every field of human activity and become proud citizens of the twenty first century not only infused with qualities of character, but also a capability to withstand the onslaught of modern day degeneration of values. The true riches of this institution lie in producing gentle humans who are truthful and represent the school motto <b>‘Knowledge is Power’</b>.</p>
                 <div class="more-button">
-                    <a href="#">Know More</a>
+                    <a href="<?php echo site_url('web/about'); ?>">Know More</a>
                 </div>
             </div>        
         </div>
@@ -77,11 +77,7 @@
                             <?php $this->load->view('templates/news');?>                     
                         </ul>
                     </marquee>
-                </div>
-                <!--div style="float:right; margin-top:10px;">
-                    <button class="btn btn-primary up"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
-                    <button class="btn btn-primary down"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
-                </div-->                
+                </div>                         
             </div>        
         </div>
     </div>    
@@ -103,7 +99,7 @@
                             </div>
                             <p align='justify'> Here at Deepti Public School, we believe that all children have a desire to be successful at something and respond positively. We believe in developing the whole child; numeracy and literacy are important but art, drama, music and physical education contribute...</p>                            
                             <div class="more-button">
-                                <a href="#">Read More</a>
+                                <a href="<?php echo site_url('web/management');?>">Read More</a>
                             </div>
                         </div>                        
                         <div class="clearfix"></div>
@@ -119,7 +115,7 @@
                             </div>
                             <p align='justify'> Deepti Public School is an inclusive school whereby we expect both high standards of behaviour and students to work to their full potential. The school is recognised for its caring environment where we help individuals develop social awareness and encourage... </p>
                             <div class="more-button">
-                                <a href="#">Read More</a>
+                                <a href="<?php echo site_url('web/management');?>">Read More</a>
                             </div>
 
                         </div>                        
@@ -142,7 +138,7 @@
                 <div class="detail-bottom">                    
                     <p>Admission to various classes starts at the beginning of the academic session in February/ March every year. Admission tests are held in Feb and March followed by an interview.</p>                    
                     <div class="more-button" style="margin-bottom: 1em;">
-                        <a href="#">Know More</a>
+                        <a href="<?php echo site_url('web/admission');?>">Know More</a>
                     </div>               
                 </div>
             </div>
@@ -157,7 +153,7 @@
                         (c) Winter Break - Dec –Jan 15 days
                     </p>
                     <div class="more-button" style="margin-bottom: 1em;">
-                        <a href="#">Know More</a>
+                        <a href="<?php echo site_url('web/activities');?>">Know More</a>
                     </div> 
                 </div>
             </div>
@@ -166,23 +162,23 @@
             <img src="<?php echo base_url('assets/images/a3.jpg'); ?>" class="img-responsive" alt=""/>
             <div class="popular-text">
                 <h5><a href="#" data-toggle="modal" data-target="#myModal4">Happy Birthday</a></h5>
-                <div class="detail-bottom fixheight">                    
-                    <p>Wishing you a <br><b><h2>Happy Birthday</h2></b></p>
-                    <?php $this->load->view('templates/bday'); ?>
+                <div class="detail-bottom fixheight">   
                     <p>May GOD bless you all the days you live.</p>
+                    <?php $this->load->view('templates/bday'); ?>
+                    <p style="margin-top: 1em;">Wishing you a very <span style="color: #ff6600; font-weight:bold;">Happy Birthday</span></p>                                        
                 </div>
             </div>
         </div>
         <div class="col-md-3 popular-grid">
             <img src="<?php echo base_url('assets/images/a4.jpg'); ?>" class="img-responsive" alt=""/>
             <div class="popular-text">
-                <h5><a href="#" data-toggle="modal" data-target="#myModal5">Visiting/Calling Hours</a></h5>
+                <h5><a href="#" data-toggle="modal" data-target="#myModal5">Rules & Regulations</a></h5>
                 <div class="detail-bottom fixheight">
                     <p>Regular Parent-Teacher meeting is organized after every Unit Test. Official Hours are as follows<br>
                         (i) Summer : 09:00 AM  to 01:00 PM.<br>
                         (ii) Winter : 09:30 AM to 01:30 PM</p>
                     <div class="more-button" style="margin-bottom: 1em;">
-                        <a href="#">Know More</a>
+                        <a href="<?php echo site_url('web/rules');?>">Know More</a>
                     </div>  
                 </div>
             </div>
