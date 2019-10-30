@@ -13,7 +13,7 @@
         <link href="<?php echo base_url('assets/css/bootstrap.css'); ?>" rel="stylesheet" type="text/css" media="all" /><!--bootstrap-->
         <link href="<?php echo base_url('assets/css/font-awesome.css'); ?>" rel="stylesheet"><!--font-awesome-->
         <?php if ($menu == 5) { ?>
-            <link href="<?php echo base_url('assets/css/lightcase.css'); ?>" rel="stylesheet" type="text/css" />
+            <link href="<?php //echo base_url('assets/css/lightcase.css'); ?>" rel="stylesheet" type="text/css" />
         <?php }?>
         <link href="<?php echo base_url('assets/css/style.css'); ?>" rel="stylesheet" type="text/css" media="all" /><!--stylesheet-->
         <!--//css links-->
