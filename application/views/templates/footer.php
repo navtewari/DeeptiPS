@@ -16,6 +16,7 @@
                 <li><a href="<?php echo site_url('web/about')?>">About</a></li>                       
                 <li><a href="<?php echo site_url('web/gallery')?>">Gallery</a></li>
                 <li><a href="<?php echo site_url('web/activities')?>">Facilities</a></li>
+                <li><a href="<?php echo site_url('web/tc')?>">TCs&apos;</a></li>
                 <li><a href="<?php echo site_url('web/contact')?>">Contact</a></li>
             </ul>
             <ul class="agileits_social_list">
